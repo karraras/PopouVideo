@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+video {
+  width: 100%;
+}
+section {
+  padding: 20px;
+}
+video.down {
+  position: fixed;
+  right: 0px;
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+  animation: downUp 0.3s forwards;
+}
+@keyframes downUp {
+  to {
+    bottom: 20px;
+  }
+}
